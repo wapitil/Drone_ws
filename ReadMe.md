@@ -10,6 +10,7 @@
 
 - Ubuntu 22.04 LTS
 - Ros2 humble 桌面版
+- 树莓派必须配有屏幕或HDMI欺骗器
 
 ### 运行步骤
 Step 1:安装TminiPro雷达驱动
@@ -61,3 +62,16 @@ ros2 run nav2_map_server map_saver_cli -t map -f ~Projects/drone_ws/map
 
 当Rviz第一次打开时，点击左下角Add By topic ->添加map 添加LaserScan 即可看见扫描的图像。
 
+## 常见问题
+
+更多调试记录详见 docs/debug-notes.md。
+
+
+## 开发须知
+- 所有重要修改请记录到 CHANGELOG.md
+- 如需新增功能，请先创建 issue 或分支
+- Git 提交请遵循规范：
+    - feat: 为代码库引入了一个新功能 
+    - fix:  修补代码库中的错误
+    - docs: 提交没有功能修改的消息
+    - !:    提交消息时使用 ! 来引起对重大变更的注意
