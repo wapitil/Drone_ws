@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.venv/
+
+# Distribution / packaging
+dist/
+*.egg-info/
+*.egg
+
+# ROS2 / robotics specific (if applicable)
+*.log
+log/
+install/
+build/
+
